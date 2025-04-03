@@ -30,8 +30,8 @@ use it as a reference to point to students records. The students records
 should consist of full names, gender, DOB,Province of origin & email addresses."""
 
 student_records={202412232:{"Full name": "Dahan Diminai","Gender": "Male","DOB": "11/11/2001","Province of Origin": "Western","Email Address": "202412232@stu.unigoroka.ac.pg"},
-                 202412245:{"Full name":"Margreth Kuri","Gender":"Female","DOB":"18/12/1998","Province of Origin":"Jiwaka","Email Address":"202412245@unigoroka.ac.pg"},
-                 202412253:{"Full name":"Junior Robert","Gender":"Male","DOB":"12/10/2000","Province of Origin":"Jiwaka","Email Address":"202412253@unigoroka.ac.pg"},
+                 202412245:{"Full name":"Margreth Kuri","Gender":"Female","DOB":"18/12/1998","Province of Origin":"Jiwaka","Email Address":"202412245@stu.unigoroka.ac.pg"},
+                 202412253:{"Full name":"Junior Robert","Gender":"Male","DOB":"12/10/2000","Province of Origin":"Jiwaka","Email Address":"202412253@stu.unigoroka.ac.pg"},
                  202412236:{"Full name":"Natasha Ricky","Gender":"Female","DOB":"05/07/1998","Province of Origin":"Eastern Highlands","Email Address":"202412236@stu.unigoroka.ac.pg"},
                  2023314233:{"Full name":"Rophie Nomoru","Gender":"Male","DOB":"19/10/2002","Province of Origin":"Morobe","Email Address":"2023314233@stu.unigoroka.ac.pg"},
                  2023314260:{"Full name":"Jonah Albert","Gender":"Male","DOB":"05/09/2004","Province of Origin":"Central","Email Address":"2023314260@stu.unigoroka.ac.pg"},}
