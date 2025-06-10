@@ -1,0 +1,85 @@
+
+
+---
+1.
+Project Title: VARK Questionnaire Program
+*Due Date:** 11/06/25
+
+---
+
+2. What the project is about
+This project is about creating an interactive program in Python that helps users determine their preferred learning style using the VARK model. The program asks the user a series of 16 multiple-choice questions,
+ collects their responses, and calculates their learning style based on the VARK categories:
+
+V – Visual
+A– Auditory
+R – Read/Write
+K – Kinesthetic
+
+---
+
+3. What your code comprises of: How many functions? What that function is supposed to do. Any classes created? If subclass is created and if inherited from parent class.
+
+Number of functions: 2 (inside a class)
+
+  1. ask_questions(self) – This function displays the questions one by one, takes user input, validates it, and scores each answer according to the VARK category.
+  2. show_result(self) – This function prints the total scores for each learning style and determines the dominant one.
+
+Class created:Yes
+
+  Class Name: VARK
+Subclass created? No
+Inheritance used? No inheritance from a parent class is used. This is a single standalone class.
+
+4. What data is captured in program? What data type stores this data? Any data source?**
+Captured Data:
+User’s answers to each of the 16 multiple-choice questions (e.g., 'a', 'b', 'cd', etc.)
+Data Types Used:
+
+  * dict (dictionary) – Used to store all the questions and the corresponding answer-to-learning style mappings.
+  * str – For storing user input choices.
+  * int – For keeping track of the score for each learning style (V, A, R, K).
+Data Source:
+
+  * All the questions and the scoring chart are hardcoded in the Python file inside dictionaries.
+  * No external files or databases are used.
+
+5. How your program handles any exceptions?
+The program uses a try-except block inside the ask_questions() function to handle errors related to user input.
+
+* If the user inputs:
+  * More than two letters
+  * Invalid letters (not 'a', 'b', 'c', or 'd')
+    Then, the program raises a ValueError and prints a friendly error message, asking the user to try again.
+
+---
+
+6. Finally, the outcome. What will be the outcome upon successful execution of your code.
+After the user has answered all 16 questions, the program will:
+
+* Show the total score for each of the four learning styles (V, A, R, K).
+* Print out the dominant learning style, which is the one with the highest score.
+
+For example:
+
+
+Your VARK scores:
+V: 4
+A: 3
+R: 5
+K: 4
+
+Your dominant learning style is likely: R
+
+7. Reflection: Include the challenges you encountered during this project. What you have learnt, and hope to improve on (if any)
+Challenges Encountered:
+The project itself is a huuge challenge for me as i do no fully understand this new course of coding just yet. i was struggling on how to actually get the hang of it. i struggled the most when trying to enter
+the user inputs , all 16 user inputs. i typed each one of them down. it was exhausting. however, i found out that i could use a function rather method to actualy get this done without making the coding look messy
+or taking up alot of space.
+What I Learned:
+I learn that functions help alot in building complex codings, it help keep codings in neat and ordered manner
+  What I Hope to Improve:
+i will work on my skills of coding more, especially polishing up on how to properly use functions and other key parts of programming.
+8. Word of thanks
+i would like to thank my family and friends for funding me in completing my project, couldnt have done it without them and i would also like to thank Ms Komogi to extend the due date for us to complete our projects and submit
+on time. 
